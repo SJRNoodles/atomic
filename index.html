@@ -1,26 +1,25 @@
 <html>
   <head>
-    <script src="atomic.js"></script>
+    <script src="https://raw.githubusercontent.com/SJRNoodles/atomic/AtomicJS/atomic.js"></script>
   </head>
-<h2>Atomic</h2>
-  Make webpages using JS
-  <div id="code">
-  Bg("#46495e");
-  drawHeader(1,"color:white;font-family:Arial;font-weight: bold;","Atomic");
-  insertHeadLine();
-  drawText("color:white;font-weight:bold;font-family:Arial;","This is a webpage made with Atomic!");
-  insertBreak();
-  drawText("color:white;font-family:Arial;","code vv");
-  insertCodeSnip("var x = 1;function Test(){}");
-  drawText("color:blue;font-family:Arial;","color");
-  insertHeadLine();
-  drawLink("https://youtube.com","color:blue;font-family:Arial;","youtube");
-  </div>
-  <div id="after">
-  <img src="after.png">
-  </div>
-  </hr>
-  <h3>Get Atomic</h3>
-  Download atomic.js and specify the location to Atomic
-  <code><script src="/path/to/atomic.js"></script></code>
+<script>
+  Bg("#4e3b57");
+  dHead(1,"color:white;font-family:Arial;","Atomic");
+  dHead(4,"color:white;font-family:Arial;","Make webpages with JS");
+  hr();
+  dHead(3,"color:white;font-family:Arial;","THIS WEBPAGE WAS MADE WITH ATOMIC");
+  dTex("color:white;font-family:Arial;","Using Atomic is simple and easy!");
+  dCode('Bg("#46495e"); dHead(1,"color:white;font-family:Arial;","Atomic");');
+  dTex("color:white;font-family:Arial;","Images");
+  dImg("https://sjrnoodles.github.io/atomic/after.png");
+  dHead(3,"color:white;font-family:Arial;","INSTALL");
+  dTex("color:white;font-family:Arial;","STEP 1");
+  dLink("https://github.com/SJRNoodles/atomic/archive/refs/heads/AtomicJS.zip","color:red;","Download the JS File");
+  dTex("color:white;font-family:Arial;","STEP 2");
+  dTex("color:white;font-family:Arial;","Insert code with your path to Atomic");
+  dCode('< script src="path/to/atomic.js"></ script>');
+  dTex("color:white;font-family:Arial;","STEP 3");
+  dTex("color:white;font-family:Arial;","Write some code to see if it works!");
+  dCode('dTex("color:blue;","Hello world");">');
+</script>
 </html>
