@@ -3,23 +3,19 @@
     <script src="atomic.js"></script>
   </head>
 <script>
-  Bg("#4e3b57");
-  dHead(1,"color:white;font-family:Arial;","Atomic");
-  dHead(4,"color:white;font-family:Arial;","Make webpages with JS");
-  hr();
-  dHead(3,"color:white;font-family:Arial;","THIS WEBPAGE WAS MADE WITH ATOMIC");
-  dTex("color:white;font-family:Arial;","Using Atomic is simple and easy!");
-  dCode('Bg("#46495e"); dHead(1,"color:white;font-family:Arial;","Atomic");');
-  dTex("color:white;font-family:Arial;","Images");
-  dImg("https://sjrnoodles.github.io/atomic/after.png");
-  dHead(3,"color:white;font-family:Arial;","INSTALL");
-  dTex("color:white;font-family:Arial;","STEP 1");
-  dLink("https://github.com/SJRNoodles/atomic/archive/refs/heads/AtomicJS.zip","color:red;","Download the JS File");
-  dTex("color:white;font-family:Arial;","STEP 2");
-  dTex("color:white;font-family:Arial;","Insert code with your path to Atomic");
-  dCode('< script src="path/to/atomic.js"></ script>');
-  dTex("color:white;font-family:Arial;","STEP 3");
-  dTex("color:white;font-family:Arial;","Write some code to see if it works!");
-  dCode('dTex("color:blue;","Hello world");">');
+Bg("#4e3b57");
+var nb1 = ["Home"," Github"];
+var nb2 = ["/","https://github.com/SJRNoodles"];
+Bg("#541f8c");
+dHead(1,"text-align:center;color:white;font-family:Arial;","Atomic");
+dNavBar(nb1,nb2,"color:white;background-color:black;padding:10px;border-top:purple 5px solid;");
+sDiv("content","background-color:#302140;border-radius:5px;padding:10px;color:white;");
+dHead(3,"","Make webpages with JS");
+dTex("","Atomic is easy to use, and can make decent webpages.");
+dCode('dTex("color:blue;","Hello world");"');
+dCode('dNavBar(nb1,nb2,"color:white;background-color:black;padding:10px;border-top:purple 5px solid;");');
+dHead(3,"","Get Started");
+dLink("https://github.com/SJRNoodles/atomic/wiki/Documentation","color:red;","Documentation");
+eDiv();
 </script>
 </html>
