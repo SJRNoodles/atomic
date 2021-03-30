@@ -1,6 +1,9 @@
 function dTex(a,t) {
 document.write("<p style='"+a+"'>"+t+"</p>");
 }
+function dTaggedHTM(z,a,t) {
+document.write("<p id='"+z+"'style='"+a+"'>"+t+"</p>");
+}
 function dLink(l,a,t) {
 document.write("<a href='"+l+"'style='"+a+"'>"+t+"</a>");
 }
