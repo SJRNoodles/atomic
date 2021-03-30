@@ -1,6 +1,9 @@
 function dTex(a,t) {
 document.write("<p style='"+a+"'>"+t+"</p>");
 }
+function dBtn(o,a,t){
+document.write("<button onclick='"+o+"'style='"+a+"'>"+t+"</button>");
+}
 function dTaggedHTM(z,a,t) {
 document.write("<p id='"+z+"'style='"+a+"'>"+t+"</p>");
 }
@@ -24,4 +27,15 @@ document.write("<img src='"+img+"'>");
 }
 function Bg(color){
 document.write("<style>body{background-color:"+color+";}</style>");
+}
+function sDiv(id,style){
+document.write("<div style='"+style+"'id='"+id+"'>");
+}
+function eDiv(){
+document.write("</div>");
+}
+function dNavBar(i1,l1,s){
+   for(i=0;i<i1.length;i++){
+   document.write("<a href='"+l1[i]+"' style='"+s+"'>"+i1[i]+"</a>");
+   }
 }
